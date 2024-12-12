@@ -13,8 +13,8 @@ Its main goal is the **early detection of problems** in the software development
 
 ## Current Status
 
-HAROS is still being developed, as of August 2021.
-Help improve HAROS by participating in a short [user survey](https://docs.google.com/forms/d/e/1FAIpQLSdD0nC2tb_IBjvasoWDOR_LzplTYF4cGkI5ZQqJtgDAe8ZQsQ/viewform?usp=sf_link).
+This version of HAROS works only for ROS1. It is no longer being developed.
+A new version of this tool, aimed at ROS2, is being developed from the ground up in another repository.
 
 ## Installing
 
