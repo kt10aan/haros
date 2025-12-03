@@ -5,5 +5,5 @@ setuptools>=20.7.0
 PyYAML>=3.13,<4.0
 haros-plugins>=1.0.3,<2.0.0
 python-magic>=0.4.15
-hpl-specs
+hpl-specs==0.2.3
 ros-type-tokens
