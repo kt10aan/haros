@@ -1,5 +1,4 @@
 #!/bin/bash
-source /opt/ros/noetic/setup.bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/llvm-10/lib
 export CMAKE_CXX_COMPILER=/usr/lib/llvm-10/bin/clang++
 pip install haros-plugin-pbt-gen
