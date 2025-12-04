@@ -9,3 +9,7 @@ cd ../turtlebot3
 rosdep install --from-paths src --ignore-src
 catkin_make -DCMAKE_EXPORT_COMPILE_COMMANDS=1
 source devel/setup.bash
+cd ../fictibot
+rosdep install --from-paths src --ignore-src
+catkin_make -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+
