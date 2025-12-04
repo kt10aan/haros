@@ -4,7 +4,7 @@ export CMAKE_CXX_COMPILER=/usr/lib/llvm-10/bin/clang++
 pip install haros-plugin-pbt-gen
 cd haros && python3 setup.py install
 haros init
-cp haros/configs.yaml /root/.haros/configs.yaml
+cp /root/haros/configs.yaml /root/.haros/configs.yaml
 cd ../turtlebot3
 rosdep install --from-paths src --ignore-src
 catkin_make -DCMAKE_EXPORT_COMPILE_COMMANDS=1
